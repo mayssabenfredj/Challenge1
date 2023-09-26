@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1{
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 50px;
+    margin-left : 100px;
+    text-align: center;
+
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+button{
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.delete {
+    background-color: #f44336;    
+    margin-left: 20px;
+}
+
+.add {
+    background-color: #4CAF50;
+}
+.update{
+ background-color: #4c56af;
+ margin-left: 20px;
+
+}
+button:hover{
+    opacity: 1;
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 5px;
+    margin-left: 400px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"]{
+    width: 50%;
+    padding: 5px;
+}
+
+.addProduct {
+    background-color: #4CAF50;
+    width: 50%;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.updateButton{
+    background-color: #564caf;
+    width: 50%;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
